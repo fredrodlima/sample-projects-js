@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pick a color</title>
+  </head>
+  <body>
+    <h1>Select a color using RGB scale</h1>
+    <p>
+      <label class='lbRed'>R - Red</label>
+      <input id="rangeR" type="range" min="0" max="255" />
+      <input id="txtRed" type="text" disabled />
+    </p>
+    <p>
+      <label class='lbGreen'>G - Green</label>
+      <input id="rangeG" type="range" min="0" max="255" />
+      <input id="txtGreen" type="text" disabled />
+    </p>
+    <p>
+      <label class='lbBlue'>B - Blue</label>
+      <input id="rangeB" type="range" min="0" max="255" />
+      <input id="txtBlue" type="text" disabled />
+    </p>
+    <div id="colorPicked" class='square'>
+    </div>
+    <script src="./js/script.js"/>
+  </body>
+</html>

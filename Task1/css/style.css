@@ -1,0 +1,21 @@
+.textbox-small {
+  width: 40px;
+}
+.lbRed {
+  padding-right: 20px;
+}
+.lbGreen {
+  padding-right: 7px;
+}
+.lbBlue {
+  padding-right: 17px;
+}
+.lbBlue {
+  padding-right: 17px;
+}
+.square {
+  border-style: dashed;
+  border-color: black;
+  width: 250px;
+  height: 250px;
+}
