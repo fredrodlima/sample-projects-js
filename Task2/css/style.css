@@ -1,0 +1,11 @@
+.container-data {
+  display: flex;
+}
+.container-list {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 10px;
+  min-width: 100px;
+  min-height: 100px;
+}
